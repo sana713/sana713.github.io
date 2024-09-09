@@ -1,0 +1,437 @@
+/* タブレット向けレイアウト */
+
+/* ブレイクポイントが1000px以下のときのメディアクエリを設定してください */
+@media (max-width:1000px ) {
+    .top-wrapper h1{
+        font-size:50px;
+        margin: auto;    
+    }
+    .top-wrapper p{
+        font-size:20px;
+        margin-bottom:5px;
+        margin-top:20px;
+        margin: auto;
+    }
+    .F{
+        width:45%;
+        margin-bottom:30px;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    
+    
+
+    .top-wrapper{
+        text-align:left;
+        padding-top:5px;
+    }
+    .top-wrapper h1{
+        font-size:32px;
+    }
+    
+    .heading h2{
+        font-size:20px;
+    }
+
+    .性格 p{
+        display:inline-block; 
+        margin-bottom:100px;
+        margin: auto;
+        margin-top: 20px;
+        font-size:30px;
+        color:#553DCC;
+        text-align: center
+    }
+
+    .G{
+        height:auto;
+    }
+    .Information{
+        width:90%;
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:50px auto;
+    }
+    .information{
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:20px auto;
+        width: 80%;
+    }
+    .information-icon p{
+    position:absolute;
+    top:90px;
+    width:100%;
+    color:#0E0A26;
+    margin:20px auto;
+    }
+    .txt-contents{
+        width:80%;
+        display:inline-block;
+        margin-top:20px;
+        font-size:20px;
+        color:#1E211B;
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:20px auto;
+    }
+
+
+    .Favorites{
+        width:90%;
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:50px auto;
+    }
+    .Favorite{
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:20px auto;
+        width: 80%;
+    }
+    .Favorite-icon p{
+    position:absolute;
+    top:90px;
+    width:100%;
+    color:#0E0A26;
+    margin:20px auto;
+    }
+    .txt-contents{
+        width:80%;
+        display:inline-block;
+        margin-top:20px;
+        font-size:20px;
+        color:#1E211B;
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:20px auto;
+    }
+    
+
+    .Certifications{
+        width:90%;
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:auto;
+    }
+    .Certification{
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:20px auto;
+        width: 80%;
+    }
+    .Certifications-icon p{
+    position:absolute;
+    top:90px;
+    width:100%;
+    color:#0E0A26;
+    margin:20px auto;
+    }
+    .txt-contents{
+        width:80%;
+        display:inline-block;
+        margin-top:20px;
+        font-size:20px;
+        color:#1E211B;
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:auto;
+    }
+
+    .Sports{
+        width:90%;
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:50px auto;
+    }
+    .Sport{
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:20px auto;
+        width: 80%;
+    }
+    .Sport-icon p{
+    position:absolute;
+    top:90px;
+    width:100%;
+    color:#0E0A26;
+    margin:20px auto;
+    }
+    .txt-contents{
+        width:80%;
+        display:inline-block;
+        margin-top:20px;
+        font-size:20px;
+        color:#1E211B;
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:20px auto;
+    }
+
+    .Hobbies{
+        width:90%;
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:50px auto;
+    }
+    .Hobby{
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:20px auto;
+        width: 80%;
+    }
+    .Hobby-icon p{
+    position:absolute;
+    top:90px;
+    width:100%;
+    color:#0E0A26;
+    margin:20px auto;
+    }
+    .txt-contents{
+        width:80%;
+        display:inline-block;
+        margin-top:20px;
+        font-size:20px;
+        color:#1E211B;
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:20px auto;
+    }
+    
+    /* <footer>の中身を中央寄せにしてください。 */
+    footer{
+        text-align:center;
+    }
+}
+
+@media (max-width:680px) {
+    /* .lessonのwidthを100%に指定してください */
+    .G{
+        height:auto;
+    }
+
+    .Information{
+        width:90%;
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:50px auto;
+    }
+    .information{
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:20px auto;
+        width: 80%;
+    }
+    .information-icon p{
+    position:absolute;
+    top:90px;
+    width:100%;
+    color:#0E0A26;
+    margin:20px auto;
+    }
+    .txt-contents{
+        width:80%;
+        display:inline-block;
+        margin-top:20px;
+        font-size:20px;
+        color:#1E211B;
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:20px auto;
+    }
+
+
+    .Favorites{
+        width:90%;
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:50px auto;
+    }
+    .Favorite{
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:20px auto;
+        width: 80%;
+    }
+    .Favorite-icon p{
+    position:absolute;
+    top:90px;
+    width:100%;
+    color:#0E0A26;
+    margin:20px auto;
+    }
+    .txt-contents{
+        width:80%;
+        display:inline-block;
+        margin-top:20px;
+        font-size:20px;
+        color:#1E211B;
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:20px auto;
+    }
+    
+
+    .Certifications{
+        width:90%;
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:auto;
+    }
+    .Certification{
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:20px auto;
+        width: 80%;
+    }
+    .Certifications-icon p{
+    position:absolute;
+    top:90px;
+    width:100%;
+    color:#0E0A26;
+    margin:20px auto;
+    }
+    .txt-contents{
+        width:80%;
+        display:inline-block;
+        margin-top:20px;
+        font-size:20px;
+        color:#1E211B;
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:auto;
+    }
+
+    .Sports{
+        width:90%;
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:50px auto;
+    }
+    .Sport{
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:20px auto;
+        width: 80%;
+    }
+    .Sport-icon p{
+    position:absolute;
+    top:90px;
+    width:100%;
+    color:#0E0A26;
+    margin:20px auto;
+    }
+    .txt-contents{
+        width:80%;
+        display:inline-block;
+        margin-top:20px;
+        font-size:20px;
+        color:#1E211B;
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:20px auto;
+    }
+
+    .Hobbies{
+        width:90%;
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:50px auto;
+    }
+    .Hobby{
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:20px auto;
+        width: 80%;
+    }
+    .Hobby-icon p{
+    position:absolute;
+    top:90px;
+    width:100%;
+    color:#0E0A26;
+    margin:20px auto;
+    }
+    .txt-contents{
+        width:80%;
+        display:inline-block;
+        margin-top:20px;
+        font-size:20px;
+        color:#1E211B;
+        display:flex;
+        flex-direction:column;
+        text-align: center;
+        margin:20px auto;
+    }
+    
+    /* <footer>の中身を中央寄せにしてください。 */
+    footer{
+        text-align:center;
+    }
+      /* 「.top-wrapper h1」のfont-sizeを24pxに指定 */
+    .top-wrapper h1{
+    font-size:50px;
+    }
+  /* 「.top-wrapper p」のfont-sizeを14pxに指定 */
+    .top-wrapper p{
+    font-size:100px;
+    margin-bottom:5px;
+    margin-top:20px;
+    }
+
+
+  /* .btnのwidthを100%に指定してください */
+    .F{
+    width:45%;
+    margin-top: 50px;
+    margin-bottom:30px;
+    margin-left:auto;
+    margin-right: auto;
+    }
+
+
+    .性格 p{
+        display:inline-block; 
+        margin-bottom:100px;
+        margin: auto;
+        margin-top: 20px;
+        font-size:28px;
+        color:#553DCC;
+        text-align: center
+    }
+
+
+    /* .top-wrapperの中身を左寄せに、padding-topを130pxに指定してください */
+    .top-wrapper{
+    text-align:left;
+    padding-top:5px;
+    }
+}
