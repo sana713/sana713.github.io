@@ -18,13 +18,13 @@ header{
     margin:auto;
 }
 .header-left h1{
-    font-size:125px;
+    font-size:90px;
     letter-spacing: 0.15em;
 }
 .header-left img{
     display:block;
     margin:10px auto;
-    width:40%;
+    width:35%;
 }
 .性格{
     height:200px;
