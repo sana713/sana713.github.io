@@ -1,6 +1,4 @@
 /* タブレット向けレイアウト */
-
-/* ブレイクポイントが1000px以下のときのメディアクエリを設定してください */
 @media (max-width:1000px ) {
     .top-wrapper h1{
         font-size:50px;
@@ -61,11 +59,11 @@
         width: 80%;
     }
     .information-icon p{
-    position:absolute;
-    top:90px;
-    width:100%;
-    color:#0E0A26;
-    margin:20px auto;
+        position:absolute;
+        top:90px;
+        width:100%;
+        color:#0E0A26;
+        margin:20px auto;
     }
     .txt-contents{
         width:80%;
@@ -95,11 +93,11 @@
         width: 80%;
     }
     .Favorite-icon p{
-    position:absolute;
-    top:90px;
-    width:100%;
-    color:#0E0A26;
-    margin:20px auto;
+        position:absolute;
+        top:90px;
+        width:100%;
+        color:#0E0A26;
+        margin:20px auto;
     }
     .txt-contents{
         width:80%;
@@ -129,11 +127,11 @@
         width: 80%;
     }
     .Certifications-icon p{
-    position:absolute;
-    top:90px;
-    width:100%;
-    color:#0E0A26;
-    margin:20px auto;
+        position:absolute;
+        top:90px;
+        width:100%;
+        color:#0E0A26;
+        margin:20px auto;
     }
     .txt-contents{
         width:80%;
@@ -162,11 +160,11 @@
         width: 80%;
     }
     .Sport-icon p{
-    position:absolute;
-    top:90px;
-    width:100%;
-    color:#0E0A26;
-    margin:20px auto;
+        position:absolute;
+        top:90px;
+        width:100%;
+        color:#0E0A26;
+        margin:20px auto;
     }
     .txt-contents{
         width:80%;
@@ -195,11 +193,11 @@
         width: 80%;
     }
     .Hobby-icon p{
-    position:absolute;
-    top:90px;
-    width:100%;
-    color:#0E0A26;
-    margin:20px auto;
+        position:absolute;
+        top:90px;
+        width:100%;
+        color:#0E0A26;
+        margin:20px auto;
     }
     .txt-contents{
         width:80%;
@@ -220,7 +218,6 @@
 }
 
 @media (max-width:680px) {
-    /* .lessonのwidthを100%に指定してください */
     .G{
         height:auto;
     }
@@ -240,11 +237,11 @@
         width: 80%;
     }
     .information-icon p{
-    position:absolute;
-    top:90px;
-    width:100%;
-    color:#0E0A26;
-    margin:20px auto;
+        position:absolute;
+        top:90px;
+        width:100%;
+        color:#0E0A26;
+        margin:20px auto;
     }
     .txt-contents{
         width:80%;
@@ -274,11 +271,11 @@
         width: 80%;
     }
     .Favorite-icon p{
-    position:absolute;
-    top:90px;
-    width:100%;
-    color:#0E0A26;
-    margin:20px auto;
+        position:absolute;
+        top:90px;
+        width:100%;
+        color:#0E0A26;
+        margin:20px auto;
     }
     .txt-contents{
         width:80%;
@@ -308,11 +305,11 @@
         width: 80%;
     }
     .Certifications-icon p{
-    position:absolute;
-    top:90px;
-    width:100%;
-    color:#0E0A26;
-    margin:20px auto;
+        position:absolute;
+        top:90px;
+        width:100%;
+        color:#0E0A26;
+        margin:20px auto;
     }
     .txt-contents{
         width:80%;
@@ -341,11 +338,11 @@
         width: 80%;
     }
     .Sport-icon p{
-    position:absolute;
-    top:90px;
-    width:100%;
-    color:#0E0A26;
-    margin:20px auto;
+        position:absolute;
+        top:90px;
+        width:100%;
+        color:#0E0A26;
+        margin:20px auto;
     }
     .txt-contents{
         width:80%;
@@ -374,11 +371,11 @@
         width: 80%;
     }
     .Hobby-icon p{
-    position:absolute;
-    top:90px;
-    width:100%;
-    color:#0E0A26;
-    margin:20px auto;
+        position:absolute;
+        top:90px;
+        width:100%;
+        color:#0E0A26;
+        margin:20px auto;
     }
     .txt-contents{
         width:80%;
@@ -392,29 +389,26 @@
         margin:20px auto;
     }
     
-    /* <footer>の中身を中央寄せにしてください。 */
+    
     footer{
         text-align:center;
     }
-      /* 「.top-wrapper h1」のfont-sizeを24pxに指定 */
+     
     .top-wrapper h1{
-    font-size:50px;
+        font-size:50px;
     }
-  /* 「.top-wrapper p」のfont-sizeを14pxに指定 */
     .top-wrapper p{
-    font-size:100px;
-    margin-bottom:5px;
-    margin-top:20px;
+        font-size:100px;
+        margin-bottom:5px;
+        margin-top:20px;
     }
 
-
-  /* .btnのwidthを100%に指定してください */
     .F{
-    width:45%;
-    margin-top: 50px;
-    margin-bottom:30px;
-    margin-left:auto;
-    margin-right: auto;
+        width:45%;
+        margin-top: 50px;
+        margin-bottom:30px;
+        margin-left:auto;
+        margin-right: auto;
     }
 
 
@@ -428,10 +422,8 @@
         text-align: center
     }
 
-
-    /* .top-wrapperの中身を左寄せに、padding-topを130pxに指定してください */
     .top-wrapper{
-    text-align:left;
-    padding-top:5px;
+        text-align:left;
+        padding-top:5px;
     }
 }
