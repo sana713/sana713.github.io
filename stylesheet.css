@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;;
+}
+body {
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #0E0A26;
+}
+header{
+    background-color: #553DCC;
+}
+
+.container{
+    max-width:1170px;
+    text-align: center;
+    width:90%;
+    padding:15px;
+    margin:auto;
+}
+.header-left h1{
+    font-size:125px;
+    letter-spacing: 0.15em;
+}
+.header-left img{
+    display:block;
+    margin:10px auto;
+    width:500px;
+}
+.性格{
+    height:200px;
+    width:90%;
+    margin: 30px auto;
+}
+
+.性格 p{
+    display:inline-block; 
+    margin-bottom:100px;
+    font-size:50px;
+    color:#553DCC;
+    text-align: center
+}
+
+
+.top-wrapper{
+    color: #553DCC;
+}
+
+
+
+
+.About{
+    text-align: center;
+}
+
+
+#F{
+    display: none;
+}
+.F{
+    display:inline-block;
+    color:#553DCC;
+    cursor: pointer;
+    font-size:40px;
+    border: 3px solid #553DCC;
+    border-radius: 20px;
+    height: auto;
+    margin:20px auto;
+    width:30%;
+}
+.G{
+    height: auto;
+}
+#F:checked+label+.G{
+    display: none;
+}
+
+
+.main{
+    text-align: center;
+}
+.main h2{
+    color:#0E0A26;
+}
+
+.summary img{
+    display:block;
+    margin:70px auto;
+    width:300px;
+}
+
+.Information{
+    width:90%;
+    padding-bottom: 200px;
+    background-color:#b3acda;
+    background-size: cover;
+    border: 3px solid #553DCC;
+    border-radius:20px;
+    text-align: center;
+    margin:150px auto;
+}
+.information{
+    float:left;
+    width: 33%;
+}
+.information-icon p{
+    position:absolute;
+    top:90px;
+    width:100%;
+    color:#0E0A26;
+}
+
+.txt-contents{
+    width:80%;
+    display:inline-block;
+    margin-top:20px;
+    font-size:12px;
+    color:#1E211B;
+}
+
+
+
+
+.Favorites{
+    width:90%;
+    padding-bottom: 220px;
+    background-color:#b3acda;
+    background-size: cover;
+    border: 3px solid #553DCC;
+    border-radius:20px;
+    text-align: center;
+    margin:150px auto;
+}
+
+.Favorite{
+    float:left;
+    width: 25%;
+}
+
+.Favorite-icon p{
+    position:absolute;
+    top:90px;
+    width:100%;
+    color:#1E211B;
+}
+
+.txt-contents{
+    width:80%;
+    display:inline-block;
+    margin-top:40px;
+    font-size:12px;
+    color:#1E211B;
+}
+
+
+.Certifications{
+    width:90%;
+    padding-bottom: 230px;
+    background-color:#b3acda;
+    background-size: cover;
+    border: 3px solid #553DCC;
+    border-radius:20px;
+    text-align: center;
+    margin: 150px auto;
+}
+
+
+.Certification{
+    float:left;
+    width: 20%;
+}
+
+.Certification-icon p{
+    position:absolute;
+    top:90px;
+    width:100%;
+    color:#1E211B;
+}
+
+.txt-contents{
+    width:80%;
+    display:inline-block;
+    margin-top:20px;
+    font-size:12px;
+    color:#1E211B;
+}
+
+
+
+.Sports{
+    width:90%;
+    padding-bottom: 200px;
+    background-color:#b3acda;
+    border: 3px solid #553DCC;
+    border-radius:20px;
+    text-align: center;   
+    margin:150px auto;
+}
+
+.Sport{
+    float:left;
+    width: 33%;
+}
+.Sport-icon p{
+    position:absolute;
+    top:90px;
+    width:100%;
+    color:#1E211B;
+}
+
+.txt-contents{
+    width:80%;
+    display:inline-block;
+    margin-top:20px;
+    font-size:12px;
+    color:#1E211B;
+}
+
+
+
+
+
+
+.Hobbies{
+    width:90%;
+    padding-bottom: 20px;
+    background-color:#b3acda;
+    background-size: cover;
+    border: 3px solid #553DCC;
+    border-radius:20px;
+    text-align: center; 
+    margin:100px auto; 
+}
+
+.Hobby{
+    float:left;
+    width: 20%;
+}
+.Hobby-icon p{
+    position:absolute;
+    top:90px;
+    width:100%;
+    color:#1E211B;
+}
+
+.txt-contents{
+    width:80%;
+    display:inline-block;
+    margin-top:20px;
+    font-size:12px;
+    color:#1E211B;
+}
+
+.clear{
+    clear:left;
+}
+
+footer{
+    font-size: 20px;
+    color:#1E211B;
+    text-align: center;
+    background-color:#553DCC;
+    padding:20px;
+    position: sticky;
+    top: 100vh;
+    width: 100%;
+}
